@@ -1,0 +1,47 @@
+@import 'styles/unit.scss';
+.header {
+  // background-color: #f6f6f6;
+  // padding: rem(18) 0w\
+  width: 100%;
+  border-bottom: 1px solid var(--border-color);
+  nav {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    ul {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      // width: 100%;
+      li {
+        border-right: 1px solid var(--border-color);
+        height: 100%;
+        color: #fff;
+        border-bottom: 3px solid transparent;
+        transition: all 0.2s ease-in;
+        display: flex;
+        align-items: center;
+        padding: 0 rem(32);
+        cursor: pointer;
+        // &:first-child {
+        //   max-width: rem(315);
+        // }
+      }
+      .active {
+        h5 {
+          color: #fff;
+        }
+        transition: all 0.2s ease-in;
+        border-bottom: 3px solid var(--orange-color);
+      }
+      .contactItem {
+        border-left: 1px solid var(--border-color);
+        border-right: 0 !important;
+      }
+      .userName {
+        width: rem(315px);
+      }
+    }
+  }
+}
