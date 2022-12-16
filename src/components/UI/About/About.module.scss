@@ -1,0 +1,70 @@
+@import 'styles/unit.scss';
+
+.root {
+    height: 72vh;
+    width: 100%;
+    display: flex;
+    .panelWrapper {
+        // padding: rem(18) rem(32);
+        // border-right: 1px solid #1E2D3D;
+        width: 100%;
+        .emptyImg {
+            // height: 80%;
+            margin-top: rem(200);
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: 3s shake infinite;
+            transition: all 1s ease-in;
+            img {
+                opacity: 0.5;
+                width: 300px;
+                // width: 300px;
+            }
+        }
+    }
+    .codeSnippets {
+        width: 50%;
+        padding: rem(18) rem(40);
+    }
+}
+
+.tabChild {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .folderName {
+        width: 100%;
+        min-height: rem(49);
+        border-bottom: 1px solid #1E2D3D;
+        .innerFolder {
+            height: 100%;
+            min-height: rem(48);
+            padding: 0 rem(15);
+            border-right: 1px solid #1E2D3D;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            column-gap: rem(24);
+            max-width: rem(220);
+
+        }
+    }
+}
+
+
+
+
+
+@keyframes shake {
+    0% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}

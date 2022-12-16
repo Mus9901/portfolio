@@ -74,7 +74,7 @@ export default createTheme({
       fontWeight: 400,
       lineHeight: rem(21),
       color: 'var(--text-color)',
-      fontFamily: 'inherit',
+      fontFamily: 'Fira Code',
       '@media (max-width: 768px)': {
         fontSize: rem(14),
         lineHeight: rem(24),
@@ -87,7 +87,7 @@ export default createTheme({
       fontWeight: 450,
       lineHeight: rem(24),
       color: '#E5E9F0',
-      fontFamily: 'inherit',
+      fontFamily: 'Fira Code',
       '@media (max-width: 768px)': {
         fontSize: rem(14),
         lineHeight: rem(24),
@@ -109,6 +109,13 @@ export default createTheme({
       color: '#607B96',
       fontFamily: 'inherit',
     },
+    h9: {
+      fontSize: rem(14),
+      fontWeight: 700,
+      lineHeight: rem(18),
+      color: '#5565E8',
+      fontFamily: 'inherit',
+    }
    
   }
 })

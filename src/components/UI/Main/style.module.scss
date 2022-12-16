@@ -1,15 +1,17 @@
 @import 'styles/unit.scss';
 
 .main {
-  height: 100vh;
+  height: 72vh;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   .container {
-    max-width: rem(1100);
+    max-width: rem(1200);
+    width: 100%;
     margin: 0 auto;
     display: flex;
-    column-gap: rem(50);
+    column-gap: rem(20);
     align-items: center;
     justify-content: center;
     // width: 100%;
@@ -17,6 +19,7 @@
       display: flex;
       flex-direction: column;
       row-gap: rem(80);
+      max-width: rem(521);
       .titleBox {
         display: flex;
         flex-direction: column;
@@ -70,3 +73,140 @@
     }
   }
 }
+
+.gameRoot {
+  background: linear-gradient(150.26deg, rgba(23, 85, 83, 0.7) 1.7%, rgba(67, 217, 173, 0.091) 81.82%);
+  border: 1px solid #0C1616;
+  box-shadow: inset 0px 2px 0px rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(32px);
+  border-radius: 8px;
+  padding: rem(12.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  .wrapper {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: rem(16);
+  .gameTitle {
+    font-size: rem(24);
+    line-height: rem(32);
+    color: white;
+  }
+  .gameBox {
+      // margin: rem(12.5);
+      padding: rem(24);
+      width: 80%;
+      height: fit-content;
+      background: rgba(1, 22, 39, 0.84);
+      box-shadow: inset 1px 5px 11px rgba(2, 18, 27, 0.71);
+      border-radius: 8px;
+      .row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // column-gap: rem(24);
+        .singleBtn {
+          width: rem(96);
+          height: rem(96);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+        .btn {
+            border: none;
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: rem(52);
+            padding: 0 !important;
+              }
+        }
+        
+      }
+    }
+  .bottomButtons {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .resetBtn {
+      border: 1px solid white;
+      cursor: pointer;
+      background: transparent;
+      border-radius: rem(8);
+      padding: rem(8) 0;
+      width: rem(90);
+      color: white;
+      font-size: rem(16);
+      line-height: rem(24);
+      transition: all 0.25s ease-in;
+      &:hover {
+        background-color: #010C15;
+        border: 1px solid #1E2D3D;
+         transition: all 0.25s ease-in;
+      }
+    }
+    .shakeBtn {
+      animation: shake 0.2s linear;
+      transition: all 0.2s ease-in;
+      background: #FEA55F;
+      border: 1px solid #011627;
+      color: #011627;
+      &:hover {
+        background: #FEA55F;
+        border: 1px solid #011627;
+      }
+    }
+
+  }
+  }
+  
+  .boltBox {
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .alertBox {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(7px);
+  }
+  50% {
+    transform: translateX(-7px);
+  }
+  75% {
+    transform: translateX(7px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+

@@ -1,5 +1,11 @@
 @import 'unit';
 @import '../../public/fonts/font.css';
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 :root {
   --primary-color: #011627;
@@ -9,14 +15,20 @@
   --green-color: #43D9AD;
   --blue-color: #4D5BCE;
   --red-color: #E99287;
-  --border-color: #1E2D3D
+  --border-color: #1E2D3D;
+  --border-line: 1px solid red
 }
 
 html,
 body {
   padding: 0;
   margin: 0;
-  background-color: var(--primary-color);
+  width: 100%;
+  background-color: #010C15;
+  padding: rem(30) rem(20);
+  display: flex;
+  align-items: center;
+  justify-self: center;
   font-family: 'Fira Code', -apple-system, BlinkMacSystemFont, Segoe UI,
     Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
     sans-serif;
@@ -52,3 +64,52 @@ header {
   width: 100%;
   max-width: 100%;
 }
+
+
+.slick-list {
+  height: rem(333) !important;
+}
+.MuiAccordionSummary-content.Mui-expanded {
+  margin: 0 !important;
+}
+
+.MuiTabs-indicator {
+  display: none;
+}
+
+.MuiAccordionSummary-root.Mui-expanded {
+  min-height: 48px !important
+}
+.MuiPaper-root-MuiAccordion-root:first-of-type {
+  margin: 0 !important;
+}
+.MuiPaper-root-MuiAccordion-root.Mui-expanded {
+  margin:  0 !important;
+}
+.MuiAccordion-root.Mui-expanded {
+  margin: 0 !important;
+}
+#tabs {
+  .Mui-selected {
+    h5 {
+      color: #fff;
+      transition: all 0.25s ease-in;
+    }
+    .folderArrow {
+      transform: rotate(90deg);
+      transition: all 0.25s ease-in;
+    }
+  }
+}
+
+#game .MuiDivider-root {
+  background-color: var(--orange-color) !important;
+  // opacity: 0.08;
+  height: rem(50);
+  width: 1px;
+}
+
+#__next {
+  width: 100%;
+}
+
