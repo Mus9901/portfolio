@@ -20,8 +20,8 @@ export function Main() {
               <Typography variant='h7'>{'>>'}Front-end developer</Typography>
            </div>
            <div className={styles.comments}>
-              <Typography variant='h8'>// complete the game to continue</Typography>
-              <Typography variant='h8'>// you can also see it on my Github page</Typography>
+              <Typography variant='h8'>complete the game to continue</Typography>
+              <Typography variant='h8'>you can also see it on my Github page</Typography>
               <div><span className={styles.const}> const</span> <span className={styles.github}>githubLink</span> = <a href="https://github.com/MalikaRakhimova31" target='__blank'><span className={styles.link}>https://github.com/MalikaRakhimova31</span></a></div>
            </div>
          </div>

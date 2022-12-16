@@ -24,7 +24,7 @@ export default function About() {
     return (
         <TabContext.Provider value={{value, setValue, setFolderName, folderName}}>
             <div className={styles.root}>
-                <SideBar children={<AboutAccordion />}/>
+                <SideBar><AboutAccordion /></SideBar>
                 <div className={styles.panelWrapper}>
                     {empty ?
                         <CustomTabPanel />  : <div className={styles.emptyImg}>
