@@ -2,7 +2,68 @@
 
 
 .root {
-     height: 72vh;
-    width: 100%;
+     height: 65vh;
+    width: 80%;
+    margin: rem(64) auto;
     display: flex;
+    &__sideBar {
+        width: rem(315);
+        border-right: 1px solid var(--border-color);
+        padding: rem(24);
+    }
+    .projectBox {
+        border-radius: rem(12);
+        border: 1px solid var(--border-color);
+        width: rem(250);
+        height: rem(300);
+        overflow: hidden;
+        
+        .projectImage {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            height: 60%;
+            padding: rem(12);
+            
+            img {
+                transform: scale(0.8);
+                transition: all 0.25s ease-in;
+            }
+            &:hover {
+                img {
+                    transform: scale(0.9);
+                    transition: all 0.25s ease-in;
+                }
+            }
+        }
+        .body {
+            padding: rem(16);
+            .title {
+                color: #fff;
+                font-size: rem(18);
+                line-height: rem(32);
+                // white-space: nowrap;
+                span {
+                    color: var(--text-color);
+                    font-size: rem(16);
+                    line-height: rem(24);
+                    margin: 0;
+                    padding: 0
+                }
+            }
+            a {
+                color: var( --orange-color);
+                text-decoration: underline;
+                text-underline-offset: 4px;
+                cursor: pointer;
+            }
+        }
+    }
+    .black {
+        background: #000;
+    }
+    .white {
+        background: #fff;
+    }
 }
+

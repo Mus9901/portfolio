@@ -51,15 +51,15 @@ export function Header() {
                   </li>
                 </Link>
             </ul>
-            <ul>
-                <Link href='/contact'>
+            {/* <ul>
+                <Link href='/'>
                   <li className={`${router.pathname === '/contact' && styles.active} ${styles.contactItem}`}>
                     <a>
                     <Typography variant='h5'>_contact-me</Typography>
                     </a>
                   </li>
                 </Link>
-            </ul>
+            </ul> */}
 
           </nav>
       </header>
