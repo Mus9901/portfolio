@@ -18,8 +18,6 @@ function Projects() {
           <Image src={el.src}
           layout="fill" alt="prject
           image" objectFit="contain"
-          width={270}
-          height={164}
           />
         </div>
         <div className={styles.body}>
