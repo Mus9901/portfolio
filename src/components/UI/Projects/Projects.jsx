@@ -12,7 +12,7 @@ function Projects() {
   return <div className={styles.root}>
      <Grid container spacing={8}>
       {projects.map((el, index) => 
-      <Grid item md={3} sm={6}>
+      <Grid item md={3} sm={6} key={index}>
         <div className={styles.projectBox}>
         <div className={`${styles.projectImage} ${styles[el.bg]}`}>
           <Image src={el.src}
@@ -22,7 +22,7 @@ function Projects() {
         </div>
         <div className={styles.body}>
           <div className={styles.title}>{el.name}</div>
-          <a href={el.link} target='_blank'>Show more</a>
+          <a href={el.link} target='_blank' rel="noreferrer">Show more</a>
         </div>
              </div>
       </Grid>)
