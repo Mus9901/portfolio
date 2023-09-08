@@ -8,33 +8,20 @@ export default function Experience() {
             <div className="flex flex-col space-y-4">
                 <div>
                     <div className="flex justify-between py-2 font-display items-center">
-                        <p className="text-white">Udevs | Frontend Developer</p>
-                        <p className="text-white text-sm italic">Nov 2021 - Current</p>
+                        <p className="text-white">Ulster University | QA Higher Education London   </p>
+                        <p className="text-white text-sm italic">Sep 2021 - May</p>
                     </div>
                     <Divider />
                     <div className="py-2">
                         <ul className="text-text-color font-display text-sm list-disc">
-                            <li>Redesigns and adds new features to the existing sites</li>
-                            <li>Joins and successfully operates parallel programming for code optimization</li>
-                            <li>Actively participates in hackathons organized by the company and improves problem-solving as well as critical thinking skills</li>
-                            <li>Constantly follows code review, clean coding, and unit testing principles and acquires design documentation habits</li>
-                            <li>Adds multi-language (Localization) support, debug panel, and dark-mode support to the site</li>
-                        </ul>
-                    </div>
-                </div>
-                <div>
-                    <div className="flex justify-between py-2 font-display items-center">
-                        <p className="text-white">Jafton | PM Assistant</p>
-                        <p className="text-white text-sm italic">Jan 2021 - October 2021</p>
-                    </div>
-                    <Divider />
-                    <div className="py-2">
-                        <ul className="text-text-color font-display text-sm list-disc">
-                            <li>Held sprint meetings and assigned tasks for members. Specify priority, blockers of tasks</li>
-                            <li>Planning an algorithm for the project, writing down all task details to each member</li>
-                            <li>Organizing meetings, and interviews with candidates, and entrepreneurs.</li>
-                            <li>Building a help center help.missed.com</li>
-                            <li>Follow the Agile/Scrum development process</li>
+                            <li>Had a year internship from a Top-Tech University</li>
+                            <li>Successfully trained by Software Engineers who have an exceptional experience</li>
+                            <li>Memorised knowledge about designing and developing websites in detail</li>
+                            <li>Worked independently without direct supervision in a fast-paced environment</li>
+                            <li>Took responsibility for maintaining, expanding, and scaling different site projects</li>
+                            <li>Achieved basic knowledge about HTML, PHP, CSS, and JavaScript coding</li>
+                            <li>Maintained high attendance standards, showed up with a positive attitude, and ready to work</li>
+                            <li>Participated in the entire application life cycle, with a focus on coding and debugging</li>
                         </ul>
                     </div>
                 </div>

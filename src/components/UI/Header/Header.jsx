@@ -27,7 +27,7 @@ export function Header() {
         <nav>
             <ul>
                 <li className={styles.userName}>
-                  <Typography variant='h5'>malika-rakhimova</Typography>
+                  <Typography variant='h5'>mustafo-irgashev</Typography>
                 </li>
                   <Link href='/'>
                     <li className={router.pathname === '/' && styles.active}>

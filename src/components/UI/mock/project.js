@@ -1,26 +1,20 @@
 export const projects = [
     {
-        name: 'Transasia',
-        src: '/images/transasia.png',
-        link: 'https://trans-asia.udevs.io/',
-        bg: 'black'
+        name: 'Beauty Salon',
+        src: '/images/beautylogo.png',
+        link: 'https://beauty-salon-uk.netlify.app/',
+        bg: 'white'
     },
     {
         name: 'Cspace',
-        src: '/images/cspace.png',
-        link: "https://cspace.uz/",
-        bg: 'white'
+        src: '/images/consulting.png',
+        link: "https://beauty-salon-uk.netlify.app/",
+        bg: 'black'
     },
     {
-        name: 'ZuzuPizza',
-        src: '/images/zuzu.png',
-        link: 'https://zuzupizza.uz/',
-        bg: 'white'
-    },
-    {
-        name: 'Evos',
-        src: '/images/evos.png',
-        link: 'https://evos.uz/en',
+        name: 'Lorem',
+        src: '/images/beautylogo.png',
+        link: 'https://beauty-salon-uk.netlify.app/',
         bg: 'white'
     },
 ]

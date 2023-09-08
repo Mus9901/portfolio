@@ -19,7 +19,8 @@
       display: flex;
       flex-direction: column;
       row-gap: rem(80);
-      max-width: rem(521);
+      width: 80%;
+      // max-width: rem(521);
       .titleBox {
         display: flex;
         flex-direction: column;

@@ -9,38 +9,34 @@ export const bio = [
     },
     {
         order: '3',
-        text: '* I am an experienced Frontend Developer'
+        text: '* I am a passionate Front-End Developer with a solid foundation in web development '
     },
     {
         order: '4',
-        text: '* with 2+ years of experience building . '
+        text: '* and a year of valuable internship experience during my time at University. '
     },
     {
         order: '5',
-        text: '* commercial projects. Mainly skilled in '
+        text: '* I am well-versed in a variety of web development languages and technologies, including: '
     },
     {
         order: '6',
-        text: '* Javascript, React, Redux, NextJS, Material UI,'
+        text: '* Html, Css/Scss, Javascript, React, NextJS, Wordpress, MySQL'
     },
     {
         order: '7',
-        text: '* Tailwind CSS and other minor skills that'
+        text: '* and other minor skills that required for building websites.'
     },
     {
         order: '8',
-        text: '* required for building websites.'
+        text: '* Being a professional, dedicated, creative '
     },
     {
         order: '9',
-        text: '* I am meticulous developer in responsive design'
+        text: '* I feel confident that personally can achieve level performance which is nothing short to perfection.'
     },
     {
         order: '10',
-        text: '* can create pixel perfect web sites.'
-    },
-    {
-        order: '11',
         text: '**/'
     },
 ]

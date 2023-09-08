@@ -60,10 +60,10 @@ export default function AboutAccordion() {
         <AccordionDetails>
           <div className='text-text-color flex flex-col space-y-1'>
             <div className='flex space-x-2 items-center'>
-              <TelegramIcon /> <a className='cursor-pointer' href='https://t.me/themelosh' target='__blank'>@themelosh</a>
+              <TelegramIcon /> <a className='cursor-pointer' href='https://t.me/Mus_9901' target='__blank'>@Mus_9901</a>
             </div>
             <div className='flex space-x-2 items-center'>
-              <LinkedInIcon /> <a className='cursor-pointer' href='https://www.linkedin.com/in/malika-rakhimova/' target='__blank'>in.malika</a>
+              <LinkedInIcon /> <a className='cursor-pointer' href='https://www.linkedin.com/in/' target='__blank'>in.Mustafo</a>
             </div>
           </div>
         </AccordionDetails>
