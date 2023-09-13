@@ -8,13 +8,12 @@ export default function Experience() {
             <div className="flex flex-col space-y-4">
                 <div>
                     <div className="flex justify-between py-2 font-display items-center">
-                        <p className="text-white">Ulster University | QA Higher Education London   </p>
+                        <p className="text-white">Internship at Ulster University | QA Higher Education London   </p>
                         <p className="text-white text-sm italic">Sep 2021 - May</p>
                     </div>
                     <Divider />
                     <div className="py-2">
                         <ul className="text-text-color font-display text-sm list-disc">
-                            <li>Had a year internship from a Top-Tech University</li>
                             <li>Successfully trained by Software Engineers who have an exceptional experience</li>
                             <li>Memorised knowledge about designing and developing websites in detail</li>
                             <li>Worked independently without direct supervision in a fast-paced environment</li>
