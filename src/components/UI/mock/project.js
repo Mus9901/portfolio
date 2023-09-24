@@ -17,4 +17,10 @@ export const projects = [
         link: 'https://pixelgram.azurewebsites.net/',
         bg: 'white'
     },
+    {
+        name: 'E-commerce',
+        src: '/images/ecommerce.png',
+        link: 'https://ecommerce-uk.netlify.app/',
+        bg: 'white'
+    },
 ]
